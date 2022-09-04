@@ -51,7 +51,7 @@ The photo will be stored in a .png format with its filename as the time when the
 
 * It should create token.json where your REFRESH_TOKEN ("refresh_token"), CLIENT_ID ("client_id") and CLIENT_SECRET ("client_secret") are located.
 
-* Copy and paste these three inside template.env and make sure to remove the quotation marks an spaces before and after the equal (=) sign.
+* Copy and paste these three inside template.env and make sure to remove the quotation marks and spaces before and after the equal (=) sign.
 
 * For Automation, in Start Menu, search and open the Task Scheduler:
 
@@ -59,7 +59,7 @@ The photo will be stored in a .png format with its filename as the time when the
         
         - In the General settings, fill-in the desired name of the task.
         
-        - Click "Run wheter the user is logged in or not" as well as the checkbox below.
+        - Click "Run wheter the user is logged in or not" as well as check the checkbox below.
         
         - Click "Change User or Group" and in the object name, type your Username (be careful as it is case-sensitive)
         
