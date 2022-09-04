@@ -12,5 +12,5 @@ The photo will be stored in a .jpg format with its filename as the time when the
 
 ## Features
 
-## How to Install
+## Setup
 
