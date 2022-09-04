@@ -79,6 +79,8 @@ The photo will be stored in a .png format with its filename as the time when the
        -------------------------------------------
         note that the path above does not include the python file !IMPORTANT!
         
+        - If you are using a laptop, uncheck everything in the Conditions tab.
+        
         - Setup Triggers by selecting New...
         
         - First trigger should be Begin Task : At system startup.
