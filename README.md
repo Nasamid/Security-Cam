@@ -66,9 +66,9 @@ The photo will be stored in a .png format with its filename as the time when the
         - On the Actions tab, create a new action.
         
         - Let the action be 'Start a Program', then you can use cmd and type 
-        ```
+       -------------------------------------------
         where python
-        ```
+       -------------------------------------------
         to locate your pythonw.exe file, and then paste its path inside the 'Program/Script' bar.
         
         - Add argument : main.pyw
