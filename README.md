@@ -11,6 +11,12 @@ This process is fully automated and is hidden, so no window/s will pop up. The o
 The photo will be stored in a .png format with its filename as the time when the photo was taken. (%day-%month-%year-%hour-%minute.png)
 
 ## Features
+* Face & Body detection
+* Can run automatically
+* Stores the photos locally and online
+* Can access photos remotely as long as you have access to your google drive
+* Runs at computer startup and as computer wakes-up from sleep
+* Uses google API for secure online processes
 
 ## Setup
 * Install the following using the terminal:
@@ -50,6 +56,8 @@ The photo will be stored in a .png format with its filename as the time when the
 * Run quickstart.py
 
 * It should create token.json where your REFRESH_TOKEN ("refresh_token"), CLIENT_ID ("client_id") and CLIENT_SECRET ("client_secret") are located.
+
+                          **NOTE THAT THESE ARE SENSITIVE INFORMATION AND IT SHOULD NOT BE SHARED WITH ANYONE**
 
 * Copy and paste these three inside template.env and make sure to remove the quotation marks and spaces before and after the equal (=) sign.
 
