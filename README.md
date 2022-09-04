@@ -13,4 +13,89 @@ The photo will be stored in a .png format with its filename as the time when the
 ## Features
 
 ## Setup
+* Install the following using the terminal:
 
+    opencv
+     ```
+     pip install python-opencv
+     ```
+    dotenv
+     ```
+     pip install python-dotenv
+     ```
+* Create or choose an existing Google Account
+
+* Go to console.cloud.google.com and create a new project.
+
+     Project Setup: (You can either follow the steps below or watch this video {2:08-5:08} -> https://www.youtube.com/watch?v=fkWM7A-MxR0&t=978s)
+     
+        - Enable APIs and Services for Google Drive (https://console.cloud.google.com/apis/library/drive.googleapis.com?project=airy-dialect-355403)
+        
+        - In the OAuth Consent Screen, choose External then hit create.
+        
+        - Fill-up the necessary information needed (the ones with red asterisks) then hit Save and Continue.
+        
+        - Add the scope : Google Drive API (https://www.googleapis.com/auth/drive) then hit Save and Continue.
+        
+        - Add your email address as a test User then finish-up by going back to the Dashboard in the Summary tab.
+        
+        - Go to Credentials then hit "+Create Credentials"
+        
+        - Choose OAuth Client ID then set the Application type as "Desktop app".
+        
+        - Type any client app name, then hit create.
+        
+        - Download the .json file then place it in your folder containing the source code.
+  
+* Run quickstart.py
+
+* It should create token.json where your REFRESH_TOKEN ("refresh_token"), CLIENT_ID ("client_id") and CLIENT_SECRET ("client_secret") are located.
+
+* Copy and paste these three inside template.env and make sure to remove the quotation marks an spaces before and after the equal (=) sign.
+
+* For Automation, in Start Menu, search and open the Task Scheduler:
+
+        - Create a New Task.
+        
+        - In the General settings, fill-in the desired name of the task.
+        
+        - Click "Run wheter the user is logged in or not" as well as the checkbox below.
+        
+        - Click "Change User or Group" and in the object name, type your Username (be careful as it is case-sensitive)
+        
+        - On the Actions tab, create a new action.
+        
+        - Let the action be 'Start a Program', then you can use cmd and type 
+        ```
+        where python
+        ```
+        to locate your pythonw.exe file, and then paste its path inside the 'Program/Script' bar.
+        
+        - Add argument : main.pyw
+        
+        - Start in : copy and paste the path where in your main.pyw is located. In my case it would be:
+        ```
+        C:\Users\danil\Downloads\Security-Cam
+        ```
+        note that the path above does not include the python file !IMPORTANT!
+        
+        - Setup Triggers by selecting New...
+        
+        - First trigger should be Begin Task : At system startup.
+        
+        - Then create a new one by clicking New... then selecting Begin Task : On an Event.
+        
+        - Select the following:
+        
+            - Log : System
+            
+            - Source : Power-Troubleshooter
+            
+            - Event ID : 1
+            
+         - The first trigger allows the script to run at system startup and the second one allows it to run at system log in (from sleep)
+         
+         -All Done!
+        
+
+        
