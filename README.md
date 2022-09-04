@@ -1,5 +1,5 @@
 # Security-Cam
-A work in progress... This security camera, written in python, allows your computer to take a photo of the person who uses it every time your computer starts up and when waking up from sleep. The photo is then automatically uploaded to your Google Drive account, which you can access remotely.
+A work in progress... This security camera, written in python, allows your computer to take a photo of the person who uses it every time your computer starts up and wakes-up from sleep. The photo is then automatically uploaded to your Google Drive account, which you can access remotely.
 
 ## How it Works
 Note that this is only compatible with computers with attached or built-in webcams.
