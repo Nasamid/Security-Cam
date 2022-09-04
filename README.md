@@ -74,9 +74,9 @@ The photo will be stored in a .png format with its filename as the time when the
         - Add argument : main.pyw
         
         - Start in : copy and paste the path where in your main.pyw is located. In my case it would be:
-        ```
-        C:\Users\danil\Downloads\Security-Cam
-        ```
+       -------------------------------------------
+          C:\Users\danil\Downloads\Security-Cam
+       -------------------------------------------
         note that the path above does not include the python file !IMPORTANT!
         
         - Setup Triggers by selecting New...
@@ -95,7 +95,7 @@ The photo will be stored in a .png format with its filename as the time when the
             
          - The first trigger allows the script to run at system startup and the second one allows it to run at system log in (from sleep)
          
-         -All Done!
+* All Done! 
         
 
         
