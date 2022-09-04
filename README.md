@@ -8,7 +8,7 @@ Upon computer start-up or log in, the designated camera will automatically detec
 
 This process is fully automated and is hidden, so no window/s will pop up. The only way to know if it worked is if the photo is saved locally (within your chosen path), saved in your gDrive, or if your camera light flashes for a short period (usually the case for most laptops, since flash is a built-in laptop camera feature).
 
-The photo will be stored in a .jpg format with its filename as the time when the photo was taken. (day-month-year-hour-minute)
+The photo will be stored in a .png format with its filename as the time when the photo was taken. (%day-%month-%year-%hour-%minute.png)
 
 ## Features
 
