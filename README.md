@@ -109,7 +109,8 @@ The photo will be stored in a .png format with its filename as the time when the
 
 ### Special Thanks to
 Daniel David N. Bador ([D4N13LxD4V1D](https://github.com/D4N13LxD4V1D))
-For helping me in this project
+
+for helping me in this project
         
 
         
