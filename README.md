@@ -19,6 +19,10 @@ The photo will be stored in a .png format with its filename as the time when the
 * Uses google API for secure online processes
 
 ## Setup
+* Download the source code above or use the type the following command in your terminal:
+    ```
+    git clone https://github.com/Nasamid/Security-Cam
+    ```
 * Install the following using the terminal:
 
     opencv
