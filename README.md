@@ -19,7 +19,7 @@ The photo will be stored in a .png format with its filename as the time when the
 * Uses google API for secure online processes
 
 ## Setup
-* Download the source code above or use the type the following command in your terminal:
+* Download the source code above or type the following command in your terminal:
     ```
     git clone https://github.com/Nasamid/Security-Cam
     ```
@@ -112,9 +112,7 @@ The photo will be stored in a .png format with its filename as the time when the
 * All Done! 
 
 ### Special Thanks to
-Daniel David N. Bador ([D4N13LxD4V1D](https://github.com/D4N13LxD4V1D))
-
-for helping me in this project
+Daniel David N. Bador ([D4N13LxD4V1D](https://github.com/D4N13LxD4V1D)) for helping me in this project.
         
 
         
